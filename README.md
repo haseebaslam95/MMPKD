@@ -33,7 +33,7 @@ Create a virtual environment using Conda or Virtualenv and use the requirement.t
 
 ### 2.2 Configs
 #### 2.2.1 Training Settings
-These settings are needed duri
+These settings are needed during training
 ###### 2.2.1.1 epochs
 Number of training epochs.
 ###### 2.2.1.2 batch-size
@@ -87,8 +87,5 @@ You should use the 'Student Training Call' in the 'mmpkd.py' file to get the res
 
 
 ### Reference
-arxiv link:
-If you found this library useful in your research, please consider citing:
-```
 
 ```
