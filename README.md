@@ -45,6 +45,7 @@ Initial learning rate for SGD optimizer. Depending on models in might be changed
 
 ## 2.3 Running
 The first step is to create the folder heirarchy.
+
 -Cropped_Aligned
 --dev_1
 --dev_2
