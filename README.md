@@ -30,6 +30,7 @@ Create a virtual environment using Conda or Virtualenv and use the requirement.t
 #### 2.1.5 `audio_melspec.py` Reads the audio segments and creates log-mel spectrograms.
 #### 2.1.6 `face_detector.py` Used to extract faces in raw videos and saves extracted images. Use face_detector_frameRetention.py to use Frame Retention.
 #### 2.1.7 'config.py' Use this file to set the paths and hyperparameters for training 
+#### 2.1.8 'plot_ccc.py' Use this file to get the final CCC value. The required post-processing steps are provided in this file.
 
 ### 2.2 Configs
 #### 2.2.1 Training Settings
@@ -70,7 +71,7 @@ All 9 videos
 2) Run the 'audio_extract.py' file to extract audio segments from raw audios and save them into separate folders.
 3) Run the 'audio_melspec.py' file to generate log-mel spectrograms of synchronized audio segments and save them in 'specs' folder.
 4) You may need to create csv files having 'image path', 'arousal', and 'valence' as header. Use the Goldstandard values to generate these csv files.
-You have to run the code using `mmpkd.py`. The config file will automatically set all the paramters for running the code.
+You have to run the code using `mmpkd.py`. The config file will automatically set all the parameters for running the code.
  
 
 ------
